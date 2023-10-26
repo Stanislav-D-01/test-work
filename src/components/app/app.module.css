@@ -1,0 +1,14 @@
+.app{
+    background: linear-gradient(45deg, #506CCF 0%, #3453C2 100%);
+    height: 100vh;
+    width: 100vw;
+    border-radius: 20px;
+
+}
+.app__background{
+    position: absolute;
+    width: 70vw;
+    height: 100vh;
+    background-color: white;
+    z-index: -2
+}

@@ -1,0 +1,20 @@
+.background{
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: -10;
+    width: 100vw;
+    height: 100vh;
+}
+.background__left{
+    width: 68vw;
+    height: 100vh;
+    background-color: white;
+}
+.background__right{
+    width: 32vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #506CCF 0%, #3453C2 100%);
+
+}

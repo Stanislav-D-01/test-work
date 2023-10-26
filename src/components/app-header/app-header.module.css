@@ -1,0 +1,92 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+
+}
+.header__ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.header__li{
+font-family: SfProText;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #5F6B77;
+    margin: 41px 35px 0 0;
+
+}
+
+.header__li:hover{
+    cursor:pointer;
+}
+.header__image{
+    width: 37px;
+    height: 37px;
+    margin: 32px 203px 0 134px;
+}
+
+@media screen and (max-width:1400px) {
+    .header__image{
+
+        margin: 32px 50px 0 134px;
+    }
+
+}
+.header__right{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.header__button{
+     max-width: 127px;
+    max-height: 46px;
+    width: 100vw;
+    height: 100vh;
+    background: #49A1F1;
+    border: none;
+border-radius: 10px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  color: white;
+    margin: 28px 40px 0 0;
+
+}
+
+.header__lng-button{
+    font-family: SfProText;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #5F6B77;
+    margin: 42px 78px 0 0;
+}
+.header__button:hover{
+    cursor:pointer;
+}
+.header__lng-button:hover{
+    cursor:pointer;
+}
+.header__contact{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 40px 15px 0 0;
+    color: white;
+    max-width: 155px;
+    width: 100vw;
+}

@@ -1,0 +1,105 @@
+.contact-modal{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: white;
+    max-width: 557px;
+    max-height: 519px;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 41px 0 41px;
+}
+.contact-modal__title{
+    align-self: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #08123A;
+    margin: 38px 0 0 0;
+
+}
+.contact-modal__grey-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+   color: #5F6B77;
+    margin: 0;
+}
+.contact-modal__black-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: black;
+    margin: 13px 0 0 0;
+}
+.contact-modal__blue-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #08123A;
+
+    margin: 13px 0 0 0;
+}
+.contact-modal__container{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+
+.contact-modal__icon{
+    margin: 0 5px 0 0;
+}
+
+.contact-modal__link{
+    color: #506CCF;
+    margin: 7px 0 0 0 ;
+
+}
+.contact-modal__link:hover{
+    cursor: pointer;
+}
+
+.contact-modal__call-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 43px 0 40px 0;
+
+}
+
+.contact-modal__button{
+    max-width: 188px;
+    max-height: 54px;
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid #5F6B77;
+    border-radius: 10px;
+    color: #5F6B77;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 0 0 59px;
+
+}
+.contact-modal__button:hover{
+    cursor: pointer;
+}
+.contact-modal__social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.contact-modal__social-icon:hover{
+   cursor: pointer;
+}
+.contact-modal__text-social{
+    margin: 27px 0 12px 0;
+}

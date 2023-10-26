@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'SfProText';
+  font-style: auto;
+  font-weight: 500;
+  src: url('./fonts/SFProText-Medium.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: auto;
+  font-weight: 600;
+  src: url('./fonts/Inter-SemiBold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: auto;
+  font-weight: 400;
+  src: url('./fonts/Inter-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'SFProDisplay';
+  font-style: auto;
+  font-weight: 600;
+  src: url('./fonts/SF-Pro-Display-Semibold.otf') format("opentype");
+}

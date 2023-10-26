@@ -1,0 +1,137 @@
+.home-page{
+    margin: 164px 0 0 135px;
+    display: flex;
+    flex-direction: column;
+}
+.home-page__title{
+    font-family: SFProDisplay;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    max-width: 570px;
+    min-height: 174px;
+    color: #08123A;
+    margin: 0;
+
+}
+.home-page__text{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 559px;
+    min-height: 120px;
+    color:#5F6B77;
+    margin: 55px 0 22px 0;
+
+}
+
+.home-page__button-connect{
+    max-width: 170px;
+    max-height: 54px;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    border-radius: 10px;
+    background: #506CCF;
+    color: white;
+    font-family: SfProText;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+.home-page__button-connect:hover{
+    cursor: pointer;
+}
+.home-page__button-next{
+    max-width: 54px;
+    max-height: 54px;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 8px;
+    border: 1px solid #E9EAF0;
+    background-color: white;
+background-image: url("../../images/bi_arrow-down-short.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 43px 0 0 0;
+
+
+}
+.home-page__button-next:hover{
+    cursor:pointer;
+}
+
+.home-page__graf-one{
+position: absolute;
+    top: 17%;
+    left:49%;
+    z-index: -1;
+
+}
+.home-page__graf-two {
+    position: absolute;
+    top: 18%;
+    left:70%;
+    z-index: -1;
+    border: none;
+    border-radius: 10px;
+}
+.home-page__graf-three {
+    position: absolute;
+    top: 57%;
+    left:54%;
+    z-index: -1;
+
+}
+.home-page__graf-avatar {
+     position: absolute;
+     top: 70%;
+     left:44%;
+     z-index: -1;
+
+ }
+.home-page__graf-avatar-two {
+    position: absolute;
+    top: 19%;
+    left:86%;
+    z-index: -1;
+
+}
+.home-page__circle-one{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: #FFC86F;
+border: none;
+    border-radius: 20px;
+    top: 93%;
+    left:78%;
+    z-index: -1;
+
+}
+.home-page__circle-two{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #FF8B8B;
+    border: none;
+    border-radius: 20px;
+    top: 38%;
+    left:71%;
+    z-index: -1;
+
+}
+.home-page__circle-three{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(45deg, #506CCF 0%, #3453C2 100%);
+    border: none;
+    border-radius: 20px;
+    top: 14%;
+    left:59%;
+    z-index: -1;
+
+}
